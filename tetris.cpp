@@ -1,6 +1,6 @@
 #include <iostream>
-#include "Zblock.h"
-#include "Oblock.h"
+#include "ZBlock.h"
+#include "OBlock.h"
 using namespace std;
 int main()
 {
@@ -22,5 +22,6 @@ int main()
  o.right();
  o.rotate();
  o.paint();
-return 0;
+ system("pause");
+ return 0;
  }
